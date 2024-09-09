@@ -1,0 +1,28 @@
+<h3>Tabla</h3>
+
+<table border="10">
+    <thead>
+        <tr>
+            <th>Nombre</th>
+            <th>Edad</th>
+            <th>Fecha</th>
+            <th>Ciudad</th>
+        </tr>
+    </thead>
+    <tbody>
+        @for(dato of datos; track dato){
+        
+        <tr >
+            <td>{{dato.nombre}}</td>
+            <td>{{dato.edad}}</td>
+            <td>{{dato.dob}}</td>
+            <td>{{dato.ciudad}}</td>
+        </tr>
+
+        
+    }
+    </tbody>
+</table>
+
+
+      
